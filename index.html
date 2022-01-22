@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-pink-200 ">
+    <div class="min-h-screen container mx-auto bg-blue-100 flex flex-col items-center justify-center">
+        <div class="title">
+            <h1 class="text-5xl font-light my-4">To do List</h1>
+        </div>
+        <div class="form bg-blue-100 w-full">
+            <form id="addForm" class="flex">
+                <input type="text" class="flex-grow px-4 rounded-full" placeholder="New Todo" />
+                <button class="bg-green-500 text-white py-2 px-4 rounded-full hover:bg-pink-200">Add</button>
+            </form>
+        </div>
+
+        <h3>Pending Items</h3>
+        <ul>
+            <li>One</li>
+        </ul>
+        <h3>Completed Items</h3>
+        <ul>
+            <li>Two</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
